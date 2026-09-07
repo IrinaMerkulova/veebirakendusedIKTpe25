@@ -40,7 +40,7 @@ section#osa2{
     margin: 5px;
     width: 15%;
 }
-img{
+img#erapilt{
     width: 100%;
     border-radius: 50%;
     border: 5px solid lightcoral;
@@ -70,6 +70,20 @@ nav{
 }
 nav ul li a:hover{
     background-color: lightcoral;
+}
+#suurkast{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /*suurus 2 x 2*/
+    gap: 10px;
+}
+#pildigalerii{
+    border: 1px solid lightcoral;
+}
+#muusika{
+
+}
+#kaart{
+
 }
 
 
