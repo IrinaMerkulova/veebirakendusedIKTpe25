@@ -14,16 +14,21 @@ function suguValik(){
     let naine=document.getElementById("naine");
     let mees=document.getElementById("mees");
     let muu=document.getElementById("muu");
+    let pilt=document.getElementById("pilt");
     //radio valikud
     let sugu="";
     if(naine.checked){
         sugu=naine.value;
+        pilt.src="../pildid/1.png";
     } else if(mees.checked){
          sugu=mees.value;
+        pilt.src="../pildid/2.png";
         } else if(muu.checked){
          sugu=muu.value;
+        pilt.src="../pildid/3.png";
             } else{
           sugu="palun vali sugu";
+        pilt.src="../pildid/tyhi.png";
     }
    vastus2.innerHTML="Valitud sugu on " +sugu;
     vastus2.style.color="green";
